@@ -1,6 +1,6 @@
 {
   "name": "json-matter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON front matter parser and serializer",
   "main": "src/index.js",
   "devDependencies": {
@@ -8,7 +8,9 @@
     "eslint": "*",
     "pre-commit": "*"
   },
-  "pre-commit": [ "test" ],
+  "pre-commit": [
+    "test"
+  ],
   "scripts": {
     "pretest": "eslint .",
     "test": "mocha -R spec"
