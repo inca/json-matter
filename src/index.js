@@ -58,7 +58,7 @@ exports.parse = function (string, options) {
  * @param {*} object — object to serialize;
  * @param {*} options — options described above
  */
-exports.serialize = exports.stringify = function (object, options) {
+exports.serialize = function (object, options) {
   options = options || {};
   // configurable
   var delimiter = options.delimiter || '\n\n';

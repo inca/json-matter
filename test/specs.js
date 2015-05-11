@@ -39,4 +39,14 @@ describe('json-matter', function () {
     assert.equal(obj.__content__.indexOf('This one shows custom delimiters'), 0);
   });
 
+  it('should not fail on missing front-matter', function () {
+    var obj = fm.parse('Look ma, no front matter!');
+    assert.equal(obj.__content__, 'Look ma, no front matter!');
+  });
+
+  it('should not fail on broken front-matter', function () {
+    var obj = fm.parse('{\n"foo"\n}\n\nThis front matter looks ill.');
+    assert.equal(obj.__content__, '{\n"foo"\n}\n\nThis front matter looks ill.');
+  });
+
 });
