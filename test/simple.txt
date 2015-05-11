@@ -1,0 +1,15 @@
+{
+  "meta": "data",
+  "arbitrary": {
+    "complex": true
+  }
+}
+
+
+  The rest content begins on this lines (blank lines are removed by default,
+  but the indentation stays).
+
+Besides, it can contain dangling right braces like these:
+}
+
+}

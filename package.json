@@ -1,0 +1,32 @@
+{
+  "name": "json-matter",
+  "version": "1.0.0",
+  "description": "JSON front matter parser and serializer",
+  "main": "src/index.js",
+  "devDependencies": {
+    "mocha": "*",
+    "eslint": "*",
+    "pre-commit": "*"
+  },
+  "pre-commit": [ "test" ],
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:inca/json-matter"
+  },
+  "keywords": [
+    "json",
+    "front-matter",
+    "parse",
+    "metadata"
+  ],
+  "author": "Boris Okunskiy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inca/json-matter/issues"
+  },
+  "homepage": "https://github.com/inca/json-matter"
+}

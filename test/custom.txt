@@ -1,0 +1,9 @@
+{{{ "meta": "data" }}}
+
+---
+
+This one shows custom delimiters and wrappers around JSON.
+Note that current implementation does not provide a way to serialize this
+(frankly, if you use this funny format then I suppose you can serialize it yourself).
+
+Have fun!
