@@ -32,7 +32,7 @@ This string is parsed into following object:
 And that's it. You can customize the `__content__` name and provide custom
 regular expressions so that you can add delimiters or decorators like these:
 
-```json
+```
 {{{ "my_object": 123 }}}
 
 ---
