@@ -1,6 +1,6 @@
 {
   "name": "json-matter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON front matter parser and serializer",
   "main": "src/index.js",
   "devDependencies": {
