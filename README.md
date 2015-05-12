@@ -40,7 +40,7 @@ regular expressions so that you can add delimiters or decorators like these:
 Rest content here.
 ```
 
-See [tests(https://github.com/inca/json-matter/tree/master/test) for more examples.
+See [tests](https://github.com/inca/json-matter/tree/master/test) for more examples.
 
 ## Usage
 
